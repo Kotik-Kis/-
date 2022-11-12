@@ -1,0 +1,73 @@
+//Пункт 1
+public class MyClass1 {
+    public static void main(String[] args) {
+        int i = 2 ;
+        while (1 < 1000000) {
+            System.out.println(i);
+            i=i+2;
+        }
+    }
+    }
+
+//Пункт 2
+ public class MyClass1{
+public static void main(String[] args){
+    int i = 500001;
+    while (i>100000) {
+        System.out.println(i);
+        i=i-2;
+    }
+    }
+}
+
+//Пункт 3
+
+public class MyClass1 {
+    public static void main(String[] args) {
+        int num = 1000000;
+        int i = 1;
+        while (i < num) {
+        int mod = i % 3;
+        if (mod == 0) {
+                System.out.println(i);
+            }
+
+            i++;
+        }
+    }
+}
+
+
+//Пункт 4
+public class MyClass1 {
+    public static void main(String[] args) {
+        int num = 100000;
+        int i = -316;
+        while (i < num) {
+            double cor = Math.pow(i, 2);
+            if (cor <= num); if (i < 0) {
+                System.out.println(i);
+            }
+            i++;
+        }
+    }
+}
+
+
+
+//Пункт 5
+
+
+import java.util.Scanner;
+
+public class MyClass1 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Введите х: ");
+        double x = scan.nextInt();
+        double y = Math.pow(x, 3);
+        double num = y/10;
+        double mod = num % 7;
+        System.out.println(mod);
+    }
+}
